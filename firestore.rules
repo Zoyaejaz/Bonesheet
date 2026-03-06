@@ -1,0 +1,11 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /spreadsheets/{sheetId} {
+      // Only the owner can create a sheet (with their uid as ownerId)
+      allow create: if request.auth != null && request.resource.data.ownerId == request.auth.uid;
+      // Only the owner can read, update, or delete their spreadsheet
+      allow read, update, delete: if request.auth != null && resource.data.ownerId == request.auth.uid;
+    }
+  }
+}
