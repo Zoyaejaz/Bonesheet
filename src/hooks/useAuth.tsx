@@ -63,7 +63,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     await signInWithEmailAndPassword(auth, email, pass);
   };
 
-  const signOutUser = async () => {
+  const signOut = async () => {
     await auth.signOut();
   };
 
@@ -75,7 +75,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       signInWithGoogle,
       signUpWithEmail,
       signInWithEmail,
-      signOut: signOutUser 
+      signOut: signOut 
     }}>
       {children}
     </AuthContext.Provider>
