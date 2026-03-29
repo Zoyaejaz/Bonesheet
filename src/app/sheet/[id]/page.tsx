@@ -30,7 +30,7 @@ const FONT_FAMILIES = [
   { label: "Comic Sans MS", value: "'Comic Sans MS', cursive" }
 ];
 
-const FONT_SIZES = ["6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "18", "20", "24", "28", "32", "36", "48", "60", "72", "96"].map(size => ({ label: size, value: size }));
+const FONT_SIZES = ["6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "18", "20", "24", "28", "32", "36", "48","50","55", "60","65", "72","80", "96"].map(size => ({ label: size, value: size }));
 
 export default function SheetPage() {
   const { id } = useParams() as { id: string };
