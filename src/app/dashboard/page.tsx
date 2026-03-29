@@ -55,7 +55,7 @@ const TEMPLATE_DEFINITIONS: TemplateDef[] = [
             "B1": { value: "Mathematics", format: { bold: true, backgroundColor: "#f8f9fa" } },
             "C1": { value: "Science", format: { bold: true, backgroundColor: "#f8f9fa" } },
             "D1": { value: "English", format: { bold: true, backgroundColor: "#f8f9fa" } },
-            "E1": { value: "Total Score", format: { bold: true, backgroundColor: "#f8f9fa" } },
+            "E1": { value: "Total Marks", format: { bold: true, backgroundColor: "#f8f9fa" } },
             "F1": { value: "Average", format: { bold: true, backgroundColor: "#f8f9fa" } }
         }
     },
