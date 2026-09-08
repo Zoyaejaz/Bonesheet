@@ -1,46 +1,4 @@
 
-Gemini
-
-Chat
-
-Spark
-beta
-New chat
-Search chats
-Students
-Images
-Videos
-Library
-New notebook
-Foundations and Advances in Statistical Machine Translation
-README Personal Project Reframing
-Frontend Developer Resume Optimization
-Java Code for Bracket Balancing
-Java Code for Call Billing
-Understanding the Nature of Resilience
-Java Multi-Source BFS Solution
-Java Solution for Bishop Moves
-Give me the correct answer for all these questions
-Cinematic Video Generation Request
-Video Edit Request Denied
-Java ASCII Palindromic Binary Check
-Resume Bullet Point Shortening
-Internship Context Noted, Ready For Questions
-Java Code for Minimum String Rotations
-NLP Project Ideas for Interviews
-Capturing Screenshots in Selenium WebDriver
-Python Code Explanations and Solutions
-Solving Job Starvation with Aging
-Java Code for Array Sum Problem
-Cufflinks Plotting Error and Fixes
-Barbershop Calculation: Two Approaches
-Untitled
-Excel Learning Roadmap: Basic to Advanced
-Java Weighted Sum of Tree Code
-Matrix Rotation and Calculation Task
-PMF: Product-Market Fit vs. Probability
-Code Review Feedback: Ineffective Meeting
-Conversation with Gemini
 # BoneSheets - Trademarkia Frontend Engineering Assignment
 
 
