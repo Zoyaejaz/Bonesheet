@@ -73,6 +73,8 @@ BoneSheets/
 
 ---
 
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -82,37 +84,6 @@ BoneSheets/
 ### 1. Clone & Install
 ```bash
 git clone https://github.com/Zoyaejaz/Bonesheet.git
-cd BoneSheets
-npm install
-2. Environment Variables
-Create a .env.local file in the root directory:
-
-Code snippet
-NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
-NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
-3. Run Locally
-Bash
-npm run dev
-Open http://localhost:3000 to view the app.
-
-
-
-```
----
-
-## Getting Started
-
-### Prerequisites
-- Node.js 18.x or later
-- A Firebase project with **Authentication** (Google & Email/Password) and **Firestore** enabled.
-
-### 1. Clone & Install
-```bash
-git clone https://github.com/<your-username>/BoneSheets.git
 cd BoneSheets
 npm install
 ```
